@@ -1,9 +1,9 @@
 {
-  "name": "Mern-Portfolio",
+  "name": "mern-portfolio",
   "version": "0.1.0",
-  "author": "Bruce",
+  "author": "webdev0528",
   "license": "MIT",
-  "homepage": "http://brucedev.net",
+  "homepage": "http://webdev0528.herokuapp.com",
   "dependencies": {
     "axios": "^0.17.1",
     "babel-polyfill": "^6.26.0",
