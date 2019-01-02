@@ -42,7 +42,7 @@ export default [
         info: 'A simple portfolio template using React, Nodemailer and Material Design.',
         img: portfolio,
         alt: 'Portfolio',
-        codeLink: "https://github.com/brucean52/create-react-portfolio",
+        codeLink: "https://github.com/webdev0528/Mern-Portfolio",
         demoLink: ""
     },
 ];
