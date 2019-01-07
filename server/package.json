@@ -1,7 +1,7 @@
 {
-  "name": "mern-starter-server",
+  "name": "mern-portfolio",
   "version": "1.0.0",
-  "description": "API server for MERN Starter, powered by Express.",
+  "description": "Mern Portfolio Back-end",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,10 +11,13 @@
   "keywords": [
     "mern",
     "api",
-    "server-side"
+    "server-side",
+    "backend",
+    "portfolio",
+    "react.js"
   ],
-  "author": "Joshua Slate",
-  "license": "ISC",
+  "author": "Web Dev",
+  "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.0",

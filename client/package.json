@@ -1,13 +1,21 @@
 {
-  "name": "mern-starter-client",
+  "name": "mern-portfolio",
   "version": "1.0.0",
-  "description": "Client-side of MERN Starter.",
+  "description": "MERN Portfolio Front-end",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
-  "author": "Joshua Slate",
+  "author": "Web Dev",
   "license": "MIT",
+  "keywords": [
+    "mern",
+    "api",
+    "client-side",
+    "frontend",
+    "portfolio",
+    "react.js"
+   ],
   "dependencies": {
     "axios": "^0.13.1",
     "babel-polyfill": "^6.26.0",

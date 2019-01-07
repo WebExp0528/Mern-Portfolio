@@ -7,7 +7,7 @@ import NotFoundPage from './components/not-found-page/not-found-page';
 
 // Import static pages
 import HomePage from './components/home/home-page';
-import ContactPage from './components/contact/contact-page';
+import ContactPage from './components/contact/contact';
 import WorkPage from './components/work/work';
 
 // Import authentication related pages

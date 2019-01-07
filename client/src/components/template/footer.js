@@ -11,7 +11,7 @@ class FooterTemplate extends Component {
       return (
         <div className="row footerRow">
           <div className="footer-links">
-              <a href="/">
+              <a href="https://github.com/webdev0528">
                 <img id="github-logo" src={githubLogo} alt="Github" />
                 <br/>
                 Github
@@ -26,7 +26,7 @@ class FooterTemplate extends Component {
           </div>
 
           <div className="footer-links">
-              <a target="_blank" href="https://www.linkedin.com/in/bruce-lok-an-b8528732/"><img id="linkedin-logo" src={linkedinLogo} alt="LinkedIn" /><br/>LinkedIn</a>
+              <a target="_blank" href=""><img id="linkedin-logo" src={linkedinLogo} alt="LinkedIn" /><br/>LinkedIn</a>
           </div>
         </div>
       );

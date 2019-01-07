@@ -13,12 +13,29 @@ export default props =>{
         <div className="container">
             <h3 className='white-color'>Who Am I?</h3>
             <hr className='white-color'/>
-            <p className='text-faded'>Growing up building computers, I've always had a passion for building and creating things. So when I graduated with a bachelor's in electrical engineering from Cal Poly San Luis Obispo, it was both an accomplishment and a dream. Next, it was designing solid state drives (SSD) at Kingston Technology where I got to take concepts and turn them into products. Now I want to take my passion, education, and experience to develop websites and applications.</p>
+            <p className='text-faded'>Hi! I'm Aaron Alfonso. I am a full stack Web developer currently living in Cumana, Venezuela.
+            <br />
+            I enjoy coding for both the front end and the back end. In particular, I enjoy the sense of pride and accomplishment when combining everything into a complete project.
+            <br />
+            I am excited to finally pursue my passion for computers, web-development, and coding.</p>
             <div className='row'>
             <img id="aboutImg" className='col s10 m6 l4 offset-s1 offset-m3 offset-l4 responsive-img' src={about} alt="About me"/>
             </div>
             <div className="text-faded center-align"><em>"Where there's a will, there's a way."</em></div>
-            <p className='text-faded'>My approach to UX/UI design and software development is to balance form and function. I think a design should be intuitive, visually balanced, and it allows the content to shine. Designs that create a great user experience are significant because they cause people to buy products from the same company over and over again. Additionally, implementing designs with code efficiency in mind will enhance performance, scalability, and overall product quality. With this approach, there is no limit on what can be achieved.</p>
+            <p className='text-faded'>
+            My principles of work:
+            <br />
+	        &emsp;&emsp;&emsp;&emsp;&emsp;- Professional approach to problem solving
+            <br />
+	        &emsp;&emsp;&emsp;&emsp;&emsp;- Analysis of modern technologies
+            <br />
+	        &emsp;&emsp;&emsp;&emsp;&emsp;- Use of the best practices in writing of clean and optimized code
+            <br />
+	        &emsp;&emsp;&emsp;&emsp;&emsp;- Learning and discussing the task before starting work
+            <br />
+	        &emsp;&emsp;&emsp;&emsp;&emsp;- Beautiful and elegant Design
+            <br />
+</p>
             
             <h4 className='white-color'>Background</h4>
             <hr className='white-color sub'/>

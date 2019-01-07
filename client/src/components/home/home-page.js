@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 import LandingPage from './landing_page';
 import Work from '../work/work';
 import About from '../about/about';
-// import About from './components/about';
-// import Skills from './components/skills';
-// import Contact from './components/contact';
+import Skills from '../skills/skills';
+import Contact from '../contact/contact';
 
 class HomePage extends Component {
   render() {
@@ -14,8 +13,8 @@ class HomePage extends Component {
         <LandingPage/>
         <Work/>
         <About/>
-        {/* <Skills/> */}
-        {/* <Contact/> */}
+        <Skills/>
+        <Contact/>
       </div>
     );
   }
