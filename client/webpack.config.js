@@ -15,10 +15,22 @@ const config = {
       test: /\.(js|jsx)$/,
       loader: 'babel',
     },
-      {
-        test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('css!sass'),
-      }],
+    {
+      test: /\.scss$/,
+      loader: ExtractTextPlugin.extract('css!sass'),
+    },
+    {
+      test:/\.css$/,
+      loader: 'css-loader',
+    },
+    {
+      test: /\.(png|svg|jpg|gif)$/,
+      loader:'file-loader',
+    },
+    {
+      test: /\.(woff|woff2|eot|ttf|otf)$/,
+      loader:'file-loader',
+    }],
   },
   devServer: {
     historyApiFallback: true,

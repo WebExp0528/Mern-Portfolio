@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         <HeaderTemplate logo="Your Site" />
 
-        <div className="container">
+        <div className="container-fluid">
           {this.props.children}
         </div>
 

@@ -3,12 +3,12 @@ import { Route, IndexRoute } from 'react-router';
 
 // Import miscellaneous routes and other requirements
 import App from './components/app';
-import NotFoundPage from './components/pages/not-found-page';
+import NotFoundPage from './components/not-found-page/not-found-page';
 
 // Import static pages
-import HomePage from './components/pages/home-page';
-import ContactPage from './components/pages/contact-page';
-import ComponentSamplesPage from './components/pages/component-samples';
+import HomePage from './components/home/home-page';
+import ContactPage from './components/contact/contact-page';
+import WorkPage from './components/work/work';
 
 // Import authentication related pages
 import Register from './components/auth/register';
@@ -38,7 +38,7 @@ export default (
   <Route path="/" component={App}>
     <IndexRoute component={HomePage} />
     <Route path="contact-us" component={ContactPage} />
-    <Route path="component-samples" component={RequireAuth(ComponentSamplesPage)} />
+    <Route path="work" component={RequireAuth(WorkPage)} />
     <Route path="register" component={Register} />
     <Route path="login" component={Login} />
     <Route path="logout" component={Logout} />
