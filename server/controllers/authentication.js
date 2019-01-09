@@ -38,6 +38,7 @@ exports.register = function (req, res, next) {
   const lastName = req.body.lastName;
   const password = req.body.password;
 
+  console.log(email);
   // Return error if no email provided
   if (!email) {
     return res.status(422).send({ error: 'You must enter an email address.' });

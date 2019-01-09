@@ -3,6 +3,7 @@ const UserController = require('./controllers/user');
 const ChatController = require('./controllers/chat');
 const CommunicationController = require('./controllers/communication');
 const StripeController = require('./controllers/stripe');
+// const visitorController = require('./controllers/visitor');
 const express = require('express');
 const passport = require('passport');
 const ROLE_MEMBER = require('./constants').ROLE_MEMBER;
@@ -16,6 +17,8 @@ const passportService = require('./config/passport');
 const requireAuth = passport.authenticate('jwt', { session: false });
 const requireLogin = passport.authenticate('local', { session: false });
 
+// var Visitor = require("./models/visitor");
+
 module.exports = function (app) {
   // Initializing route groups
   const apiRoutes = express.Router(),
@@ -28,6 +31,19 @@ module.exports = function (app) {
   //= ========================
   // Auth Routes
   //= ========================
+
+  // apiRoutes.post('/visitors', function(req, res, next) {
+  //   Visitor.find({}, function(err,products){
+  //     if(err){
+  //       return next(err);
+  //     }
+  //   console.log("/visitorssssssss");
+  //   res.send(products);
+  //    });
+  // });
+
+
+
 
   // Set auth routes as subgroup/middleware to apiRoutes
   apiRoutes.use('/auth', authRoutes);
@@ -43,7 +59,6 @@ module.exports = function (app) {
 
   // Password reset route (change password using token)
   authRoutes.post('/reset-password/:token', AuthenticationController.verifyToken);
-
   //= ========================
   // User Routes
   //= ========================

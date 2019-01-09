@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class AdminDashboard extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         Admin navigation goes here.
       </div>
     );

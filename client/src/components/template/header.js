@@ -9,19 +9,22 @@ class HeaderTemplate extends Component {
         <li key={1}>
           <Link to="/">Home</Link>
         </li>,
-        <li key={2}>
-          <Link to="work">Work</Link>
-        </li>,
-        <li key={3}>
-          <Link to="about">About</Link>
-        </li>,
-        <li key={4}>
-          <Link to="skills">Skills</Link>
-        </li>,
-        <li key={5}>
-          <Link to="contact">Contact Me</Link>
-        </li>,
+        // <li key={2}>
+        //   <Link to="work">Work</Link>
+        // </li>,
+        // <li key={3}>
+        //   <Link to="about">About</Link>
+        // </li>,
+        // <li key={4}>
+        //   <Link to="skills">Skills</Link>
+        // </li>,
+        // <li key={5}>
+        //   <Link to="contact">Contact Me</Link>
+        // </li>,
         <li key={6}>
+          <Link to="dashboard">DashBoard</Link>
+        </li>,
+        <li key={7}>
           <Link to="logout">Logout</Link>
         </li>,
       ];
